@@ -118,9 +118,7 @@ This project was built while following *Python Crash Course* by Eric Matthes.
 
 ---
 
-## 🎥 World Earthquake Map Preview
 
-![World Earthquake Map](screenshots/world_earthquake_map.gif)
 
 ---
 
