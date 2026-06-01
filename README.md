@@ -1,135 +1,123 @@
-# Generating Data — Python Project
+## Chapter 16 — DOWNLOADING DATA
 
-This project was built while following *Python Crash Course* by Eric Matthes.
+This project was built while following *Python Crash Course* by Eric Matthes.  
 
----
-
-## Chapter 15 — GENERATING DATA
-
-### Installing Matplotlib
+“This chapter continues from previous data visualization projects. Required libraries (Matplotlib, Plotly, pandas) are assumed to be installed.”
 
 ---
 
-### Plotting a Simple Line Graph
-
-![Simple Line Graph](screenshots/plot_15_1.png)  
-*Figure 15-1: One of the simplest plots you can make in Matplotlib*
+### The CSV File Format
 
 ---
 
-### Changing the Label Type and Line Thickness
-
-![Label and Line](screenshots/plot_15_2.png)  
-*Figure 15-2: The chart is much easier to read now.*
+### Parsing the CSV File Headers
 
 ---
 
-### Correcting the Plot
-
-![Corrected Plot](screenshots/plot_15_3.png)  
-*Figure 15-3: The data is now plotted correctly.*
+### Printing the Headers and Their Positions
 
 ---
 
-### Using Built-in Styles
-
-![Seaborn Style](screenshots/plot_15_4.png)  
-*Figure 15-4: The built-in seaborn style*
+### Extracting and Reading Data
 
 ---
 
-### Plotting and Styling Individual Points with scatter()
+### Plotting Data in a Temperature Chart
 
-![Single Point](screenshots/plot_15_5.png)  
-*Figure 15-5: Plotting a single point*
-
----
-
-### Plotting a Series of Points with scatter()
-
-![Multiple Points](screenshots/plot_15_6.png)  
-*Figure 15-6: A scatter plot with multiple points*
+![Temperature Chart - July 2021 Sitka](screenshots/plot_16_1.png)  
+*Figure 16-1: A line graph showing daily high temperatures for July 2021 in Sitka, Alaska*
 
 ---
 
-### Calculating Data Automatically
-
-![Automatic Data](screenshots/plot_15_7.png)  
-*Figure 15-7: Python can plot 1,000 points as easily as it plots 5 points.*
+### The datetime Module
 
 ---
 
-### Customizing Tick Labels / Colors / Colormap
+### Plotting Dates
 
-![Blues Colormap](screenshots/plot_15_8.png)  
-*Figure 15-8: A plot using the Blues colormap*
-
----
-
-### Saving Your Plots Automatically
+![Dates on X-Axis](screenshots/plot_16_2.png)  
+*Figure 16-2: The graph is more meaningful, now that it has dates on the x-axis.*
 
 ---
 
-### Random Walks
+### Plotting a Longer Timeframe
 
-- Creating the `RandomWalk` Class  
-- Choosing Directions  
-- Plotting the Random Walk  
-
-![Random Walk](screenshots/plot_15_9.png)  
-*Figure 15-9: A random walk with 5,000 points*
-
-- Generating Multiple Random Walks  
-- Styling the Walk  
-- Coloring the Points  
-
-![Colored Random Walk](screenshots/plot_15_10.png)  
-*Figure 15-10: A random walk colored with the Blues colormap*
-
-- Plotting the Starting and Ending Points  
-- Cleaning Up the Axes  
-- Adding Plot Points  
-
-![Large Random Walk](screenshots/plot_15_11.png)  
-*Figure 15-11: A walk with 50,000 points*
-
-- Altering the Size to Fill the Screen  
+![Yearly Data](screenshots/plot_16_3.png)  
+*Figure 16-3: A year’s worth of data*
 
 ---
 
-### Rolling Dice with Plotly
+### Plotting a Second Data Series
 
-- Installing Plotly  
-  - `pip install plotly`  
-  - `pip install pandas`  
-- Creating the `Die` Class  
-- Rolling the Die  
-- Analyzing the Results  
-- Making a Histogram  
+![Two Data Series](screenshots/plot_16_4.png)  
+*Figure 16-4: Two data series on the same plot*
 
-![Initial Plotly Plot](screenshots/plot_15_12.png)  
-*Figure 15-12: The initial plot produced by Plotly Express*
+---
 
-- Customizing the Plot  
+### Shading an Area in the Chart
 
-![Bar Chart](screenshots/plot_15_13.png)  
-*Figure 15-13: A simple bar chart created with Plotly*
+![Shaded Region](screenshots/plot_16_5.png)  
+*Figure 16-5: The region between the two datasets is shaded.*
 
-- Rolling Two Dice  
+---
 
-![Two Dice](screenshots/plot_15_14.png)  
-*Figure 15-14: Simulated results of rolling two six-sided dice 1,000 times*
+### Error Checking
 
-- Further Customizations  
-- Rolling Dice of Different Sizes  
+![Error Checked Temperature Data](screenshots/plot_16_6.png)  
+*Figure 16-6: Daily high and low temperatures for Death Valley*
 
-![Dice of Different Sizes](screenshots/plot_15_15.png)  
-*Figure 15-15: The results of rolling a six-sided die and a ten-sided die 50,000 times*
+---
 
-- Saving Figures  
+### Downloading Your Own Data
+
+---
+
+## Mapping Global Datasets: GeoJSON Format
+
+---
+
+### Downloading Earthquake Data
+
+### Examining GeoJSON Data
+
+### Making a List of All Earthquakes
+
+### Extracting Magnitudes
+
+### Extracting Location Data
+
+---
+
+### Building a World Map
+
+![Earthquake Map](screenshots/plot_16_7.png)  
+*Figure 16-7: A simple map showing where all the earthquakes in the last 24 hours occurred*
+
+---
+
+### Representing Magnitudes
+
+![Earthquake Magnitudes](screenshots/plot_16_8.png)  
+*Figure 16-8: The map now shows the magnitude of all earthquakes in the last 30 days.*
+
+---
+
+### Customizing Marker Colors
+
+![Colored Earthquake Map](screenshots/plot_16_9.png)  
+*Figure 16-9: Color and size represent earthquake magnitude.*
+
+---
+
+### Other Color Scales
+
+### Adding Hover Text
+
+![Earthquake Hover Info](screenshots/plot_16_10.png)  
+*Figure 16-10: Hover text shows a summary of each earthquake*
 
 ---
 
 ### Link to the Project Code
 
-[Generating Data GitHub Repository](https://github.com/jeanmarc-webdev/generating-data)
+[Downloading Data GitHub Repository](https://github.com/jeanmarc-webdev/downloading-data)
